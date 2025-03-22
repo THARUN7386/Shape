@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Spicy+Rice&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#input{
+    background-image:url(https://images.pexels.com/photos/1335971/pexels-photo-1335971.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+#number{
+    width: 55px;
+    height: 25px;
+    font-size: 20px;
+    padding: 0px 10px;
+
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(29, 102, 175);
+    color: rgb(22, 22, 22);
+}
+
+.Circle{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(17, 16, 17);
+    height: 50px;
+    width:50px;
+    border-radius:50%;
+    margin:10px;
+    text-align: center;
+    background-color:rgb(210, 76, 76);
+
+}
+.Square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(13, 13, 13);
+    height: 50px;
+    width:50px;
+    margin:10px;
+    text-align: center;
+    background-color:orange;
+
+}
+.Rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(30, 29, 29);
+    height: 50px;
+    width:80px;
+    margin:10px;
+    text-align: center;
+    background-color:aqua;
+
+}
